@@ -1,17 +1,50 @@
-import { Layout, Page, Text, List } from '@vercel/examples-ui'
+import { Layout, Page, Text, List } from "@vercel/examples-ui";
+// import { useEffect, useState } from "react";
+// import dynamic from "next/dynamic";
 
 export default function Index() {
   return (
     <Page>
       <Text variant="h2" className="mb-6">
-        Password-protected page demo
+        Welcome! Viewing billing history for ... {/*  <userx></userx> */}
+        V03
       </Text>
       <List>
-        <li>Username: 4dmin</li>
-        <li>Password: testpwd123</li>
+        <li>Username: admin</li>
+        {/* <li>Password: admin</li> */}
+      </List>
+      <List>
+        <table style={{ borderSpacing: "2px" }}>
+          <tbody>
+            <th>
+              <td>Biller Name</td>
+              <td>Month</td>
+              <td>Arrears</td>
+              <td>STATUS</td>
+            </th>
+            <tr>
+              <td>Dummy</td>
+              <td>JAN2001</td>
+              <td>$1</td>
+              <td>PAID</td>
+            </tr>
+            <tr>
+              <td>Dummy</td>
+              <td>FEB2001</td>
+              <td>$5</td>
+              <td>PAID</td>
+            </tr>
+            <tr>
+              <td>Dummy</td>
+              <td>MAR2001</td>
+              <td>$3</td>
+              <td>PAID</td>
+            </tr>
+          </tbody>
+        </table>
       </List>
     </Page>
-  )
+  );
 }
 
-Index.Layout = Layout
+Index.Layout = Layout;
