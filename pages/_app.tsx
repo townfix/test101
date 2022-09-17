@@ -10,6 +10,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <Layout
       title="Welcome"
       //path="edge-functions/basic-auth-password"
+      path=""
     >
       <Component {...pageProps} />
     </Layout>

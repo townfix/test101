@@ -1,4 +1,5 @@
-import { Layout, Page, Text, List } from '@vercel/examples-ui'
+import { Layout, Page, Text, List } from "@vercel/examples-ui";
+import { useEffect, useState } from 'react'
 
 export default function Index() {
   return (
@@ -6,13 +7,14 @@ export default function Index() {
       <Text variant="h2" className="mb-6">
         Welcome! Viewing billing history for ... {/*  <userx></userx> */}
       </Text>
+      Version 001
       <List>
         <li>Username: admin</li>
-        {/* <li>Password: admin</li> */}
+        <li>Password: admin</li>
       </List>
       <hr></hr>
       <List>
-        <table>
+        <table style={{borderSpacing: '2px'}}>>
           <th>
             <td>Biller Name</td>
             <td>Month</td>
@@ -38,10 +40,9 @@ export default function Index() {
             <td>PAID</td>
           </tr>
         </table>
-
       </List>
     </Page>
-  )
+  );
 }
 
-Index.Layout = Layout
+Index.Layout = Layout;
