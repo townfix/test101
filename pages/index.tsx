@@ -14,7 +14,7 @@ export default function Index() {
         {/* <li>Password: admin</li> */}
       </List>
       <hr />
-      <List>
+      {/* <List> */}
         <table style={{ borderSpacing: "2px" }}>
           <th>
             <td>Biller Name</td>
@@ -41,7 +41,7 @@ export default function Index() {
             <td>PAID</td>
           </tr>
         </table>
-      </List>
+      {/* </List> */}
     </Page>
   );
 }
