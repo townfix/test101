@@ -10,11 +10,11 @@ export default function Index() {
       Version 001
       <List>
         <li>Username: admin</li>
-        <li>Password: admin</li>
+        {/* <li>Password: admin</li> */}
       </List>
       <hr></hr>
       <List>
-        <table style={{borderSpacing: '2px'}}>>
+        <table style={{borderSpacing: '2px'}}>
           <th>
             <td>Biller Name</td>
             <td>Month</td>
