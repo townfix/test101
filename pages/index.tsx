@@ -1,6 +1,6 @@
 import { Layout, Page, Text, List } from "@vercel/examples-ui";
-import { useEffect, useState } from 'react'
-import dynamic from "next/dynamic";
+// import { useEffect, useState } from "react";
+// import dynamic from "next/dynamic";
 
 export default function Index() {
   return (
@@ -15,34 +15,34 @@ export default function Index() {
       </List>
       <List>
         <table style={{ borderSpacing: "2px" }}>
-        <tbody>
-          <th>
-            <td>Biller Name</td>
-            <td>Month</td>
-            <td>Arrears</td>
-            <td>STATUS</td>
-          </th>
-          <tr>
-            <td>Dummy</td>
-            <td>JAN2001</td>
-            <td>$1</td>
-            <td>PAID</td>
-          </tr>
-          <tr>
-            <td>Dummy</td>
-            <td>FEB2001</td>
-            <td>$5</td>
-            <td>PAID</td>
-          </tr>
-          <tr>
-            <td>Dummy</td>
-            <td>MAR2001</td>
-            <td>$3</td>
-            <td>PAID</td>
-          </tr>
+          <tbody>
+            <th>
+              <td>Biller Name</td>
+              <td>Month</td>
+              <td>Arrears</td>
+              <td>STATUS</td>
+            </th>
+            <tr>
+              <td>Dummy</td>
+              <td>JAN2001</td>
+              <td>$1</td>
+              <td>PAID</td>
+            </tr>
+            <tr>
+              <td>Dummy</td>
+              <td>FEB2001</td>
+              <td>$5</td>
+              <td>PAID</td>
+            </tr>
+            <tr>
+              <td>Dummy</td>
+              <td>MAR2001</td>
+              <td>$3</td>
+              <td>PAID</td>
+            </tr>
           </tbody>
         </table>
-      </List> 
+      </List>
     </Page>
   );
 }
