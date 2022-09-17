@@ -41,7 +41,7 @@ export default function Index() {
             <td>PAID</td>
           </tr>
           </tbody>
-        </Table>
+        </table>
       </List> 
     </Page>
   );
