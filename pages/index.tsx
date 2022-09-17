@@ -1,5 +1,5 @@
 import { Layout, Page, Text, List } from "@vercel/examples-ui";
-import { useEffect, useState } from "react";
+//import { useEffect, useState } from "react";
 //import dynamic from "next/dynamic";
 
 export default function Index() {
