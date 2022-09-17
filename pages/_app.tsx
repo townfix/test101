@@ -8,8 +8,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <Layout
-      title="Password Protected"
-      path="edge-functions/basic-auth-password"
+      title="Welcome"
+      //path="edge-functions/basic-auth-password"
     >
       <Component {...pageProps} />
     </Layout>
