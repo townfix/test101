@@ -14,7 +14,7 @@ export function middleware(req: NextRequest) {
 
     //if (user === '4dmin' && pwd === 'testpwd123') {
     // if (user === '4dmin' && pwd === 'testpwd123') {
-    if (user === "admin" || pwd === "admin") {
+    if (user === "admin" && pwd === "admin") {
       return NextResponse.next();
     }
   }
