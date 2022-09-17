@@ -1,20 +1,21 @@
 import { Layout, Page, Text, List } from "@vercel/examples-ui";
-import { useEffect, useState } from 'react'
+//import { useEffect, useState } from 'react'
+//import dynamic from "next/dynamic";
 
 export default function Index() {
   return (
     <Page>
       <Text variant="h2" className="mb-6">
         Welcome! Viewing billing history for ... {/*  <userx></userx> */}
+        V03
       </Text>
-      Version 001
       <List>
         <li>Username: admin</li>
         {/* <li>Password: admin</li> */}
       </List>
-      <hr></hr>
+      <hr />
       <List>
-        <table style={{borderSpacing: '2px'}}>
+        <table style={{ borderSpacing: "2px" }}>
           <th>
             <td>Biller Name</td>
             <td>Month</td>
